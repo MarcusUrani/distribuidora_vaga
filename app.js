@@ -55,20 +55,30 @@ function verifyMaxValue(data) {
       }
     }
   }
-
+  //Adiciona ao HTML o valor máximo da distribuidora
   maxValueTextField.textContent = `R$ ${maxValue.toFixed(2)}`;
 }
 
+//Função que recebe os dados e verifica qual o menor valor
 function verifyMinValue(data) {
+  /*Variável criada para armazenas o menor valor, inicia 
+  com um valor alto para que sejam feitas as comparações*/
   let minValue = 10000000;
 
+  /* Laço de repetição, que assim como o da função anterior, utiliza o índice i
+  para fixar um valor e compará-lo */
   for (let i = 0; i < data.length; i++) {
+    /* Laço de repetição que fixa o valor com o índice j */
     for (let j = 0; j < data.length; j++) {
+      /* Condicional para verificar se o valor com o índice i é menor que o valor
+      com o índice j e menor que o valor armazenado na variável valor mínimo */
       if ((data[i].valor < data[j].valor) & (data[i].valor < minValue)) {
+        // Se a condicional for verdadeira o valor com o índice i será armazenado na variável
         minValue = data[i].valor;
       }
     }
   }
+  //Adiciona ao HTML o valor mínimo da distribuidora
   minValueTextField.textContent = `R$ ${minValue.toFixed(2)}`;
 }
 
