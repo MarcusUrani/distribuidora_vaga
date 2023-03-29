@@ -82,15 +82,25 @@ function verifyMinValue(data) {
   minValueTextField.textContent = `R$ ${minValue.toFixed(2)}`;
 }
 
+// Função que recebe os dados e calcula a média de arrecadação mensal
 function calculateMonthMedia(data) {
+  // Variável que armazena o valor total do mês
   let monthSum = 0;
+  // Laço de repetição para somar os valores de cada dia
   for (let i = 0; i < data.length; i++) {
+    // O valor da soma do mês é somado ao valor de cada dia
     monthSum = monthSum + data[i].valor;
   }
+  /* Variável em que é armazenada a média mensal, que é calculada 
+  com a divisão da soma dos valores do mês, pela quantidade de dias */
   const monthMedia = monthSum / data.length;
+  /* Função para calcular a quantidade de dias acima da média em que 
+  são passados os dados do mês e a média mensal */
   verifyDaysOverAverage(monthMedia, data);
 }
 
+/* Função que recebe a média e os dados totais e verifica a quantidade 
+de dias acima da média */
 function verifyDaysOverAverage(average, data) {
   let daysOverAverage = [];
   for (let i = 0; i < data.length; i++) {
