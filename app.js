@@ -102,15 +102,23 @@ function calculateMonthMedia(data) {
 /* Função que recebe a média e os dados totais e verifica a quantidade 
 de dias acima da média */
 function verifyDaysOverAverage(average, data) {
+  // Variável que armazena a quantidade de dias acima da média
   let daysOverAverage = [];
+  // Laço de repetição que passa por todos os itens disponíveis na tabela data
   for (let i = 0; i < data.length; i++) {
+    // Condicional que verifica se o valor atual do laço é maior que a média
     if (data[i].valor > average) {
+      /* Se a condicional acima retornar verdadeiro o dia vai ser inserido 
+      na lista de dias acima da média */
       daysOverAverage.push(data[i].valor);
     }
   }
+  // Variável que armazena o tamanho da lista de dias acima da média
   const numberOfDaysOverAverage = daysOverAverage.length;
 
+  // Adiciona o número de dias ao HTML
   averageTextField.textContent = numberOfDaysOverAverage;
 }
 
+// A função de coletar dados do arquivo JSON é chamada
 collectJsonData();
