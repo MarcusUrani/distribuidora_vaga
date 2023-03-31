@@ -12,4 +12,5 @@
 
 ## Como acessar o projeto?
 
-    - Acesse a página do projeto por ese [link](https://google.com)
+    - Acesse a página do projeto por ese [link](https://google.com).
+    -
