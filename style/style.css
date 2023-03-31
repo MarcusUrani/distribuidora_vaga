@@ -1,4 +1,4 @@
-/* Global Style */
+/* Estilos globais */
 body,
 h1,
 h2,
@@ -31,12 +31,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Main Style */
+/* Estilo do main da página */
 .main {
   text-align: center;
 }
 
-/* White box style */
+/* Estilo da caixa branca */
 .main__section {
   background-color: #f0f8ff;
   box-sizing: border-box;
@@ -51,7 +51,7 @@ body {
   width: 80%;
 }
 
-/* */
+/* Estilo da caixa do título */
 .main__section__article {
   border-bottom: 1px solid #cccccc;
   margin: 0 auto 1rem auto;
@@ -59,16 +59,19 @@ body {
   width: 80%;
 }
 
+/* Estilo do título */
 .main__section__article__title {
   font-size: 1.75rem;
 }
 
+/* Estilo da caixa dos dados processados */
 .main__section__container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* Estilo dos textos com os resultados */
 .main__section__container__max--value__text,
 .main__section__container__min--value__text,
 .main__section__container__average__text {
