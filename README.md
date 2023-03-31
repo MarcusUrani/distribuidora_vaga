@@ -4,4 +4,10 @@
 
     Para tal, foi disponibilizado um arquivo JSON com todos os dados para que fossem realizados os cálculos.
 
-## Tecnologias ultizadas
+## Tecnologias utilizadas
+
+    - HTML
+    - CSS
+    - JavaScript
+
+## Como acessar o projeto?
