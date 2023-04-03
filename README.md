@@ -19,3 +19,9 @@ Para tal, foi disponibilizado um arquivo JSON com todos os dados para que fossem
 - Na página são exibidos todos os resultados solicitados.
 
 ## Autor 🙋🏻‍♂️
+
+- Marcus Vinícius Gomes Urani
+
+- [LinkedIn](https://linkedin.com/in/marcusurani)
+
+- [Portfólio](https://marcusurani.netlify.app)
