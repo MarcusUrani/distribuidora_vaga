@@ -14,15 +14,9 @@ Para tal, foi disponibilizado um arquivo JSON com todos os dados para que fossem
 
 - Acesse a página do projeto por ese [link](https://google.com).
 
-<<<<<<< HEAD
 - O usuário será redirecionado para a página do projeto.
 
 - Na página são exibidos todos os resultados solicitados.
-=======
-- Você será redirecionado para a página do projeto.
-
-- Os resultados serão exibidos na tela.
->>>>>>> 97cde7d82be629cf14b226154ba27e49d3c7e9eb
 
 ## Autor 🙋🏻‍♂️
 
