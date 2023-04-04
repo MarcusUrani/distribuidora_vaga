@@ -12,7 +12,7 @@ Para tal, foi disponibilizado um arquivo JSON com todos os dados para que fossem
 
 ## Como acessar o projeto? 👩🏻‍💻
 
-- Acesse a página do projeto por ese [link](https://google.com).
+- Acesse a página do projeto por ese [link](https://target-vaga01.netlify.app).
 
 - O usuário será redirecionado para a página do projeto.
 
